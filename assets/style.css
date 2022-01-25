@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Orbitron:wght@700&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{   
+    font-family: poppins;
+}
+img{
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+li{
+    list-style: none;
+    background: linear-gradient(to right, rgb(156, 39, 123), rgb(129, 67, 67));
+    padding: 3px;
+    color: white;
+}
+#email{
+    cursor: pointer;
+    margin-top: 3px;
+    transition: 0.5s;
+}
+#email:hover{
+    color:  rgb(156, 39, 123);
+}
+
+.heading_style{
+    background: linear-gradient(to right, rgb(156, 39, 123), rgb(129, 67, 67));
+    padding: .5em;
+    color: rgb(250, 249, 249);
+    text-shadow: 2px 4px rgb(37, 2, 27);
+    font-size: 2rem;
+    margin-bottom: .25em;
+}
+
+#output{
+    background: linear-gradient(to right, rgb(156, 39, 123), rgb(129, 67, 67));
+    padding: 1.25rem;
+    color: white;
+    margin: 1rem;   
+}
